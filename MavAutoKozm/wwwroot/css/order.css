@@ -1,6 +1,6 @@
 ﻿.container {
     position: relative;
-    width: 70%;
+    width: 60%;
 }
 
 .image {
@@ -16,7 +16,7 @@
     right: 0;
     background-color: lightblue;
     overflow: hidden;
-    width: 100%;
+    width: 300px;
     height: 0;
     transition: .5s ease;
     border-radius: 16px
@@ -26,6 +26,7 @@
     bottom: 0;
     height: 100%;
     border: 2px solid black;
+    width: 80%;
 }
 
 .overlayj {
@@ -42,7 +43,7 @@
 }
 
 .container:hover > .overlayj {
-    width: 100%;
+    width: 80%;
     border: 2px solid black;
 }
 
@@ -60,7 +61,7 @@
 }
 
 .container:hover > .overlayb {
-    width: 100%;
+    width: 80%;
     left: 0;
     border: 2px solid black;
 }
@@ -80,6 +81,7 @@
 }
 
 .container:hover > .overlayf {
+    width: 80%;
     height: 100%;
     border: 2px solid black;
 }
